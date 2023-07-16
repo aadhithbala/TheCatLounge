@@ -97,10 +97,41 @@ body {
 
 .adopt-btn {
   background-color: #223123;
-  color: #b9d1bb;
+  color: #ecfcf2;
 }
 
 .learn-more-btn {
   background-color: #79b975;
   color: #1b291a;
+}
+
+.total-adoptions {
+  display: flex;
+  /* border: solid 1px red; */
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+}
+.customer-image {
+  width: 2rem;
+  border-radius: 50%;
+  border: solid 5px #5f7a6a;
+  margin-left: -0.7rem;
+}
+
+.adoption-message {
+  font-weight: 600;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.text-highlighter {
+  background-color: #2e2836;
+  color: #ecfcf2;
+  border-radius: 1rem;
+  width: 5rem;
+  display: inline-block;
+  text-align: center;
+  /* padding: 2px; */
 }
