@@ -63,7 +63,8 @@ body {
   gap: 5rem;
 }
 
-.hero-primary {
+.hero-primary,
+.brief-heading {
   font-size: 3.1rem;
   line-height: 1.4;
   font-weight: 700;
@@ -137,10 +138,17 @@ body {
 
 .section-brief {
   background-color: #d7f8e5;
+  padding: 5rem;
 }
 
 .illustration-container {
   display: flex;
+  gap: 5rem;
+  /* border: solid 3px purple; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: -4rem;
 }
 
 .bg-circle {
@@ -148,7 +156,6 @@ body {
   width: 7rem;
   height: 7rem;
   border-radius: 50%;
-  /* border: solid 2px red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,4 +166,12 @@ body {
 .step-two,
 .step-three {
   font-size: 3rem;
+}
+
+.illustration-one-brief,
+.illustration-two-brief,
+.illustration-three-brief {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75;
 }
