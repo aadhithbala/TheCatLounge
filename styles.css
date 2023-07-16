@@ -107,7 +107,6 @@ body {
 
 .total-adoptions {
   display: flex;
-  /* border: solid 1px red; */
   justify-content: flex-start;
   align-items: flex-end;
   margin-top: 3rem;
@@ -116,7 +115,7 @@ body {
 .customer-image {
   width: 2rem;
   border-radius: 50%;
-  border: solid 5px #5f7a6a;
+  border: solid 3px #bdf3d3;
   margin-left: -0.7rem;
 }
 
