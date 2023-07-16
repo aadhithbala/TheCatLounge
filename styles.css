@@ -38,6 +38,16 @@ body {
   align-items: center;
   column-gap: 2rem;
   flex-wrap: wrap;
+  font-weight: 600;
+}
+
+.navbar > .special-btn {
+  background-color: #79b975;
+  color: #1b291a;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 6rem;
+  text-align: center;
 }
 
 .hero-image {
