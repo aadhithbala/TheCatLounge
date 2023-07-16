@@ -42,8 +42,6 @@ body {
 }
 
 .navbar > .donate-btn {
-  background-color: #79b975;
-  color: #1b291a;
   padding: 0.5rem;
   border-radius: 0.5rem;
   width: 6rem;
@@ -100,7 +98,8 @@ body {
   color: #ecfcf2;
 }
 
-.learn-more-btn {
+.learn-more-btn,
+.navbar > .donate-btn {
   background-color: #79b975;
   color: #1b291a;
 }
@@ -132,5 +131,10 @@ body {
   width: 5rem;
   display: inline-block;
   text-align: center;
-  /* padding: 2px; */
+}
+
+/* Section Two - Brief */
+
+.section-brief {
+  background-color: #d7f8e5;
 }
