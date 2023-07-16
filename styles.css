@@ -12,16 +12,17 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
+  color: #2e2836;
 }
 
 .section-hero {
-  background-color: #a0eec0;
+  background-color: #bdf3d3;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  height: 5rem;
+  height: 3rem;
   padding: 1rem;
   column-gap: 2rem;
 }
@@ -37,4 +38,33 @@ body {
   align-items: center;
   column-gap: 2rem;
   flex-wrap: wrap;
+}
+
+.hero-image-container {
+  border: solid 2px red;
+}
+
+.hero-image {
+  width: 40rem;
+  border: solid 3px purple;
+}
+
+.hero-content {
+  border: solid 3px brown;
+  display: flex;
+  padding: 5rem;
+  gap: 5rem;
+}
+
+.hero-primary {
+  font-size: 3.1rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.hero-secondary {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  margin-top: 1rem;
 }
