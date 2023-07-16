@@ -14,6 +14,18 @@ body {
   line-height: 1.5;
 }
 
+.section-hero {
+  background-color: #a0eec0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 1rem;
+  column-gap: 2rem;
+}
+
 .logo {
   width: 12rem;
 }
@@ -25,12 +37,4 @@ body {
   align-items: center;
   column-gap: 2rem;
   flex-wrap: wrap;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  height: 5rem;
-  padding: 1rem;
-  column-gap: 2rem;
 }
