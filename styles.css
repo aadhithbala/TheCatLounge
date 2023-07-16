@@ -13,3 +13,24 @@ body {
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
 }
+
+.logo {
+  width: 12rem;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 1rem;
+  column-gap: 2rem;
+}
