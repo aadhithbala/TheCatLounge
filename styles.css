@@ -138,3 +138,25 @@ body {
 .section-brief {
   background-color: #d7f8e5;
 }
+
+.illustration-container {
+  display: flex;
+}
+
+.bg-circle {
+  background-color: #79b975;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  /* border: solid 2px red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.step-one,
+.step-two,
+.step-three {
+  font-size: 3rem;
+}
