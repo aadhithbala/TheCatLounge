@@ -40,17 +40,16 @@ body {
   flex-wrap: wrap;
 }
 
-.hero-image-container {
-  border: solid 2px red;
-}
-
 .hero-image {
   width: 40rem;
-  border: solid 3px purple;
+  background: linear-gradient(
+    rgba(151, 194, 169, 0.5),
+    rgba(151, 194, 169, 0.5)
+  );
+  border-radius: 2rem;
 }
 
 .hero-content {
-  border: solid 3px brown;
   display: flex;
   padding: 5rem;
   gap: 5rem;
@@ -67,4 +66,31 @@ body {
   font-weight: 400;
   line-height: 1.75;
   margin-top: 1rem;
+}
+
+.hero-buttons {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.adopt-btn,
+.learn-more-btn {
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  display: inline-block;
+  width: 12rem;
+  font-weight: 600;
+}
+
+.adopt-btn {
+  background-color: #223123;
+  color: #b9d1bb;
+}
+
+.learn-more-btn {
+  background-color: #79b975;
+  color: #1b291a;
 }
