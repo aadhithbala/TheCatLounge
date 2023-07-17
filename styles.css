@@ -43,12 +43,32 @@ body {
   font-weight: 600;
 }
 
-/* .navbar > .donate-btn {
-  padding: 1rem;
-  border-radius: 1rem;
-  width: 12rem;
-  text-align: center;
-} */
+.navlinks:link,
+.navlinks:visited {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1.2rem;
+  color: #2e2836;
+}
+
+.navlinks::before {
+  transition: 300ms;
+  bottom: 0;
+  height: 0.4rem;
+  content: '';
+  position: absolute;
+  background-color: #2e2836;
+}
+
+.nav-link-anime::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-anime:hover::before {
+  width: 100%;
+}
 
 .hero-image {
   width: 80rem;
@@ -84,14 +104,15 @@ body {
   column-gap: 4rem;
 }
 
-.donate-btn > a:link,
-.donate-btn > a:visited {
+.donate-btn:link,
+.donate-btn:visited {
   text-decoration: none;
-  padding: 1.3rem;
   width: 12rem;
   text-align: center;
   display: inline-block;
   border-radius: 1rem;
+  padding: 0.75rem;
+  margin-top: -1.2rem;
 }
 
 .adopt-btn:link,
@@ -123,16 +144,16 @@ body {
 
 .learn-more-btn:link,
 .learn-more-btn:visited,
-.donate-btn > a:link,
-.donate-btn > a:visited {
+.donate-btn:link,
+.donate-btn:visited {
   background-color: #79b975;
   color: #1b291a;
 }
 
 .learn-more-btn:active,
 .learn-more-btn:hover,
-.donate-btn > a:active,
-.donate-btn > a:hover {
+.donate-btn:active,
+.donate-btn:hover {
   background-color: #67b561;
 }
 
