@@ -144,9 +144,9 @@ body {
   margin-left: 1rem;
 }
 .customer-image {
-  width: 5rem;
+  width: 6.5rem;
   border-radius: 50%;
-  border: solid 0.4rem #bdf3d3;
+  border: solid 0.5rem #bdf3d3;
   margin-left: -1.4rem;
 }
 
@@ -159,8 +159,9 @@ body {
 .text-highlighter {
   background-color: #2e2836;
   color: #ecfcf2;
-  border-radius: 2rem;
-  width: 10rem;
+  border-radius: 5rem;
+  /* padding: 0.3rem; */
+  width: 9rem;
   display: inline-block;
   text-align: center;
 }
