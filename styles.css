@@ -25,7 +25,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  height: 6rem;
   padding: 2rem;
   column-gap: 4rem;
 }
@@ -64,10 +63,11 @@ body {
   display: flex;
   padding: 10rem;
   gap: 10rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.hero-primary,
-.brief-heading {
+.hero-primary {
   font-size: 6.2rem;
   line-height: 1.4;
   font-weight: 700;
@@ -84,8 +84,10 @@ body {
   column-gap: 4rem;
 }
 
-.adopt-btn,
-.learn-more-btn {
+.adopt-btn:link,
+.learn-more-btn:link,
+.adopt-btn:visited,
+.learn-more-btn:visited {
   text-align: center;
   text-decoration: none;
   padding: 2rem;
@@ -110,14 +112,14 @@ body {
 .total-adoptions {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 6rem;
   margin-left: 1rem;
 }
 .customer-image {
-  width: 4rem;
+  width: 5rem;
   border-radius: 50%;
-  border: solid 0.3rem #bdf3d3;
+  border: solid 0.4rem #bdf3d3;
   margin-left: -1.4rem;
 }
 
