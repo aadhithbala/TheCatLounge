@@ -43,12 +43,12 @@ body {
   font-weight: 600;
 }
 
-.navbar > .donate-btn {
+/* .navbar > .donate-btn {
   padding: 1rem;
   border-radius: 1rem;
   width: 12rem;
   text-align: center;
-}
+} */
 
 .hero-image {
   width: 80rem;
@@ -84,6 +84,16 @@ body {
   column-gap: 4rem;
 }
 
+.donate-btn > a:link,
+.donate-btn > a:visited {
+  text-decoration: none;
+  padding: 1.3rem;
+  width: 12rem;
+  text-align: center;
+  display: inline-block;
+  border-radius: 1rem;
+}
+
 .adopt-btn:link,
 .learn-more-btn:link,
 .adopt-btn:visited,
@@ -96,17 +106,34 @@ body {
   display: inline-block;
   width: 24rem;
   font-weight: 600;
+  transition: all 0.3s;
 }
 
-.adopt-btn {
+.adopt-btn:link,
+.adopt-btn:visited {
   background-color: #223123;
   color: #ecfcf2;
 }
 
-.learn-more-btn,
-.navbar > .donate-btn {
+.adopt-btn:active,
+.adopt-btn:hover {
+  background-color: #304a2f;
+  color: #fff;
+}
+
+.learn-more-btn:link,
+.learn-more-btn:visited,
+.donate-btn > a:link,
+.donate-btn > a:visited {
   background-color: #79b975;
   color: #1b291a;
+}
+
+.learn-more-btn:active,
+.learn-more-btn:hover,
+.donate-btn > a:active,
+.donate-btn > a:hover {
+  background-color: #67b561;
 }
 
 .total-adoptions {
