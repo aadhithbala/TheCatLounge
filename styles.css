@@ -3,16 +3,19 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-  font-size: 20px;
+  /* 62.5% = 10px = 1rem */
+  font-size: 62.5%;
 }
 
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
   color: #2e2836;
+  font-size: 2rem;
 }
 
 .section-hero {
@@ -22,13 +25,13 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  height: 3rem;
-  padding: 1rem;
-  column-gap: 2rem;
+  height: 6rem;
+  padding: 2rem;
+  column-gap: 4rem;
 }
 
 .logo {
-  width: 12rem;
+  width: 24rem;
 }
 
 .navbar {
@@ -36,61 +39,60 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  column-gap: 2rem;
+  column-gap: 4rem;
   flex-wrap: wrap;
   font-weight: 600;
 }
 
 .navbar > .donate-btn {
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  width: 6rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 12rem;
   text-align: center;
 }
 
 .hero-image {
-  width: 40rem;
+  width: 80rem;
   background: linear-gradient(
     rgba(151, 194, 169, 0.5),
     rgba(151, 194, 169, 0.5)
   );
-  border-radius: 2rem;
+  border-radius: 4rem;
 }
 
 .hero-content {
   display: flex;
-  padding: 5rem;
-  gap: 5rem;
+  padding: 10rem;
+  gap: 10rem;
 }
 
 .hero-primary,
 .brief-heading {
-  font-size: 3.1rem;
+  font-size: 6.2rem;
   line-height: 1.4;
   font-weight: 700;
 }
 
 .hero-secondary {
-  font-size: 1rem;
   font-weight: 400;
   line-height: 1.75;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .hero-buttons {
   display: flex;
-  column-gap: 2rem;
+  column-gap: 4rem;
 }
 
 .adopt-btn,
 .learn-more-btn {
   text-align: center;
   text-decoration: none;
-  padding: 1rem;
-  border-radius: 1rem;
-  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-top: 4rem;
   display: inline-block;
-  width: 12rem;
+  width: 24rem;
   font-weight: 600;
 }
 
@@ -109,69 +111,27 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  margin-top: 3rem;
-  margin-left: 0.5rem;
+  margin-top: 6rem;
+  margin-left: 1rem;
 }
 .customer-image {
-  width: 2rem;
+  width: 4rem;
   border-radius: 50%;
-  border: solid 3px #bdf3d3;
-  margin-left: -0.7rem;
+  border: solid 0.3rem #bdf3d3;
+  margin-left: -1.4rem;
 }
 
 .adoption-message {
   font-weight: 600;
-  margin-left: 1rem;
+  margin-left: 2rem;
   text-align: center;
 }
 
 .text-highlighter {
   background-color: #2e2836;
   color: #ecfcf2;
-  border-radius: 1rem;
-  width: 5rem;
+  border-radius: 2rem;
+  width: 10rem;
   display: inline-block;
   text-align: center;
-}
-
-/* Section Two - Brief */
-
-.section-brief {
-  background-color: #d7f8e5;
-  padding: 5rem;
-}
-
-.illustration-container {
-  display: flex;
-  gap: 5rem;
-  /* border: solid 3px purple; */
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  margin-bottom: -4rem;
-}
-
-.bg-circle {
-  background-color: #79b975;
-  width: 7rem;
-  height: 7rem;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.step-one,
-.step-two,
-.step-three {
-  font-size: 3rem;
-}
-
-.illustration-one-brief,
-.illustration-two-brief,
-.illustration-three-brief {
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.75;
 }
