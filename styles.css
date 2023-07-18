@@ -317,3 +317,62 @@ h2 {
 }
 
 /* Testimonials & Gallery */
+
+.section-social {
+  background-color: #d7f8e5;
+  padding: 7.5rem;
+  border: solid 2px red;
+}
+
+.section-social-heading {
+  font-size: 5rem;
+}
+
+.section-social-container {
+  display: flex;
+}
+
+.testimonials {
+  width: 50%;
+  border: solid 3px tomato;
+  padding: 5rem;
+}
+
+.gallery {
+  width: 50%;
+  border: solid 3px indigo;
+}
+
+.review-box {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 5rem;
+}
+
+.review-box-two {
+  margin-top: 5rem;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5rem;
+  padding: 2rem;
+  border-radius: 3rem;
+  background-color: #bdf3d3;
+  box-shadow: var(--shadow-elevation-medium);
+}
+
+.customer-review-image {
+  border-radius: 50%;
+  width: 10rem;
+  border: solid 0.5rem #223123;
+}
+
+.author {
+  font-weight: 600;
+}
+
+.review-content {
+}
