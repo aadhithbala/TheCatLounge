@@ -190,3 +190,29 @@ body {
   display: inline-block;
   text-align: center;
 }
+
+/* Section - How it works? */
+
+.section-steps {
+  background-color: #d7f8e5;
+  padding: 10rem;
+}
+
+.step-heading {
+  font-size: 5rem;
+}
+
+.bg-circle {
+  background-color: #79b975;
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-circle-text {
+  font-size: 6rem;
+  font-weight: 500;
+}
