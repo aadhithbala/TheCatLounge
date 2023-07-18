@@ -321,11 +321,11 @@ h2 {
 .section-social {
   background-color: #d7f8e5;
   padding: 7.5rem;
-  border: solid 2px red;
 }
 
 .section-social-heading {
   font-size: 5rem;
+  margin-bottom: 5rem;
 }
 
 .section-social-container {
@@ -372,7 +372,4 @@ h2 {
 
 .author {
   font-weight: 600;
-}
-
-.review-content {
 }
