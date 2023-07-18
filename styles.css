@@ -373,3 +373,15 @@ h2 {
 .author {
   font-weight: 600;
 }
+
+/* Gallery */
+
+.imagerow {
+  display: flex;
+}
+
+.gallery-images {
+  width: 33%;
+  height: 33%;
+  flex-shrink: 0;
+}
