@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+/* Realistic Shadows Preset */
 :root {
   --shadow-color: 145deg 33% 52%;
-  --shadow-elevation-low: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
-    0.4px 0.8px 1px -1.2px hsl(var(--shadow-color) / 0.34),
-    1px 2px 2.5px -2.5px hsl(var(--shadow-color) / 0.34);
   --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
     0.8px 1.6px 2px -0.8px hsl(var(--shadow-color) / 0.36),
     2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36),
@@ -103,7 +101,7 @@ body {
 
 .hero-content {
   display: flex;
-  padding: 10rem;
+  padding: 7.5rem;
   gap: 10rem;
   justify-content: space-between;
   align-items: center;
@@ -215,7 +213,7 @@ body {
 
 .section-steps {
   background-color: #d7f8e5;
-  padding: 10rem;
+  padding: 7.5rem;
 }
 
 .step-heading {
@@ -269,7 +267,7 @@ h2 {
 
 .section-icons {
   background-color: #bdf3d3;
-  padding: 10rem;
+  padding: 7.5rem;
 }
 
 .section-icons-heading {
@@ -290,7 +288,6 @@ h2 {
   padding: 3rem;
   width: 40rem;
   height: 45rem;
-  /* border: solid 3px red; */
   border-radius: 3rem;
   display: flex;
   flex-direction: column;
@@ -318,3 +315,5 @@ h2 {
   font-size: 2rem;
   text-align: center;
 }
+
+/* Testimonials & Gallery */
