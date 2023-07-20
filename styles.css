@@ -375,13 +375,3 @@ h2 {
 }
 
 /* Gallery */
-
-.imagerow {
-  display: flex;
-}
-
-.gallery-images {
-  width: 33%;
-  height: 33%;
-  flex-shrink: 0;
-}
