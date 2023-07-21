@@ -13,9 +13,9 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #2e2836;
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 /* Color */
@@ -67,4 +67,63 @@ body {
   text-align: center;
   border-radius: 0.8rem;
   background-color: #79b975;
+}
+
+/* Hero Section */
+
+.section-hero {
+  background-color: #bdf3d3;
+  padding-top: 3rem;
+}
+
+.hero {
+  margin: 0 auto;
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 4.5rem;
+  column-gap: 5rem;
+}
+
+.hero-text {
+}
+
+.hero-heading {
+  font-size: 3.1rem;
+}
+
+.hero-description {
+  margin: 2rem 0 4rem;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 3rem;
+  background-color: rgba(119, 136, 153, 0.158);
+}
+
+.hero-btn {
+  text-decoration: none;
+  padding: 1rem;
+  width: 15rem;
+  text-align: center;
+  border-radius: 1.1rem;
+  display: inline-block;
+  color: inherit;
+  font-weight: 600;
+}
+
+.hero-btn-container {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.adopt-btn {
+  background-color: #304a2f;
+  color: #faf9f6;
+}
+
+.learn-btn {
+  background-color: #79b975;
+  color: inherit;
 }
