@@ -183,6 +183,8 @@ h2 {
 .bg-circle {
   background-color: #92e3a9;
   font-size: 4rem;
+  font-weight: 500;
+  color: inherit;
   width: 8rem;
   display: flex;
   justify-content: center;
@@ -197,6 +199,41 @@ h2 {
   width: 100%;
 }
 
-.illustration-img-container {
+.illustration-container {
   width: 50rem;
+}
+
+/* Section Cards - ICONS */
+
+.section-cards {
+  background-color: #bdf3d3;
+}
+
+.cards-heading {
+  margin-bottom: 3rem;
+}
+
+.cards {
+  padding: 2rem 4.5rem;
+}
+
+.cards-container {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.card-box {
+  align-items: center;
+  text-align: center;
+  width: 30rem;
+  background-color: #d7f8e5;
+  border-radius: 25px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.icon-img {
+  width: 5rem;
 }
