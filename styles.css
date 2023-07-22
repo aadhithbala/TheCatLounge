@@ -18,6 +18,11 @@ body {
   line-height: 1.75;
 }
 
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
 /* Color */
 /* BG Color:  #bdf3d3*/
 /* Text Color: #2E2836 */
@@ -145,4 +150,53 @@ body {
 .adoption-message {
   margin-left: 1rem;
   font-weight: 500;
+}
+
+/* Section How To */
+
+.section-steps {
+  background-color: #d7f8e5;
+}
+
+.steps {
+  padding: 2rem 4.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.step-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5rem;
+}
+
+.step-heading {
+  font-size: 1.9rem;
+}
+
+.step-description {
+  margin-top: 1.5rem;
+}
+
+.bg-circle {
+  background-color: #92e3a9;
+  font-size: 4rem;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+  padding: 1rem;
+}
+
+.illustration-img {
+  width: 100%;
+}
+
+.illustration-img-container {
+  width: 50rem;
 }
