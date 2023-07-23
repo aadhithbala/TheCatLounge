@@ -237,3 +237,52 @@ h2 {
 .icon-img {
   width: 5rem;
 }
+
+/* Section Social */
+
+.section-social {
+}
+
+.social {
+  padding: 2rem 4.5rem;
+}
+
+.social-container {
+  background-color: lightsteelblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* column-gap: 3rem; */
+}
+
+.testimonials {
+  background-color: lightpink;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.review-box {
+  padding: 1rem;
+  background-color: lightyellow;
+}
+
+.review-box > img {
+  width: 6rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.review-content {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+}
+
+.author {
+  font-weight: 500;
+}
+
+/* Gallery */
+
+.gallery {
+  background-color: lightsalmon;
+}
