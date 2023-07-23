@@ -298,7 +298,18 @@ h2 {
   gap: 1rem;
 }
 
+.gallery-img-container {
+  overflow: hidden;
+  border-radius: 25px;
+}
+
 .gallery-img-container > img {
   width: 100%;
   display: block;
+  border-radius: 25px;
+  transition: all 0.4s;
+}
+
+.gallery-img-container > img:hover {
+  transform: scale(1.1);
 }
