@@ -220,6 +220,7 @@ h2 {
 .cards-container {
   display: flex;
   column-gap: 2rem;
+  justify-content: center;
 }
 
 .card-box {
@@ -241,39 +242,44 @@ h2 {
 /* Section Social */
 
 .section-social {
+  background-color: #d7f8e5;
 }
 
 .social {
   padding: 2rem 4.5rem;
 }
 
+.social-heading {
+  margin-bottom: 3rem;
+}
+
 .social-container {
-  background-color: lightsteelblue;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* column-gap: 3rem; */
+  grid-template-columns: 55fr 45fr;
+  gap: 3rem;
 }
 
 .testimonials {
-  background-color: lightpink;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
 
 .review-box {
-  padding: 1rem;
-  background-color: lightyellow;
+  background-color: #bdf3d3;
+  border-radius: 25px;
+  padding: 2rem;
+  display: grid;
+  align-content: start;
+  gap: 3rem;
 }
 
 .review-box > img {
   width: 6rem;
   border-radius: 50%;
-  margin-bottom: 2rem;
 }
 
 .review-content {
-  margin-bottom: 2rem;
   font-size: 1.25rem;
 }
 
@@ -284,5 +290,15 @@ h2 {
 /* Gallery */
 
 .gallery {
-  background-color: lightsalmon;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.gallery-img-container > img {
+  width: 100%;
+  display: block;
 }
