@@ -207,6 +207,7 @@ h2 {
 
 .section-cards {
   background-color: #bdf3d3;
+  padding-bottom: 8rem;
 }
 
 .cards-heading {
@@ -214,6 +215,9 @@ h2 {
 }
 
 .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
   padding: 2rem 4.5rem;
 }
 
