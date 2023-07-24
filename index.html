@@ -386,13 +386,15 @@
               type="text"
               class="name input-field"
               placeholder="John Smith"
+              required
             />
             <input
               type="email"
               class="email input-field"
               placeholder="johnsmith@gmail.com"
+              required
             />
-            <select class="survey-dropdown" name="" id="">
+            <select class="survey-dropdown" required>
               <option value="">Where did you hear about us?</option>
               <option value="youtube">Youtube</option>
               <option value="family">Friends</option>
@@ -404,11 +406,7 @@
             <button class="submit-btn">Submit</button>
           </form>
         </div>
-        <img
-          class="cta-image"
-          src="./images/cta-image.png"
-          alt="A woman with a dog"
-        />
+        <div class="cta-image" role="img"></div>
       </div>
     </section>
   </body>

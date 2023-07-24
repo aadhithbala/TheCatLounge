@@ -321,16 +321,18 @@ h2 {
 /* CTA */
 .section-cta {
   padding: 15rem;
+  background-color: #bdf3d3;
 }
+
 .cta {
-  background: lightblue;
   display: grid;
-  grid-template-columns: 70fr 30fr;
-}
-.cta-image {
-  width: 90%;
-  background-size: cover;
-  justify-self: end;
+  grid-template-columns: 2fr 1fr;
+  background: lightpink;
+  background-image: linear-gradient(to right bottom, #75b687, #669f76);
+  border-radius: 25px;
+  overflow: hidden;
+  /* temp */
+  height: 35rem;
 }
 
 .cta-box {
@@ -338,16 +340,23 @@ h2 {
 }
 
 .cta-heading {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.cta-description {
-  margin-bottom: 3rem;
+.cta-image {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(118, 183, 136, 0.35),
+      rgba(101, 159, 118, 0.35)
+    ),
+    url(./images/CTA\ Image.png);
+  background-size: cover;
 }
 
-/* Form */
+/* FORMS */
 
 .cta-form {
+  margin-top: 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
@@ -355,4 +364,26 @@ h2 {
 
 .cta-form > * {
   display: block;
+}
+
+.input-field,
+.survey-dropdown {
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: inherit;
+  color: inherit;
+  background: #d7f8e5;
+}
+
+.submit-btn {
+  width: 60%;
+  border: none;
+  padding: none;
+  margin: none;
+  font-size: inherit;
+  border-radius: 10px;
+  background-color: #304a2f;
+  color: #faf9f6;
+  cursor: pointer;
 }
