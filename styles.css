@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -7,11 +7,11 @@
 }
 
 html {
-  font-size: 100%;
+  font-size: 80%;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
   color: #2e2836;
@@ -320,7 +320,7 @@ h2 {
 
 /* CTA */
 .section-cta {
-  padding: 15rem;
+  padding: 10rem;
   background-color: #bdf3d3;
 }
 
@@ -389,3 +389,70 @@ h2 {
 }
 
 /* Section Footer */
+
+.footer,
+.copyright {
+  background: #223123;
+  color: #a1b6a0;
+}
+
+h4 {
+  color: #c9e3c8;
+}
+
+.footer-container {
+  padding: 3rem 4.5rem 2rem 4.5rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  justify-items: end;
+}
+
+.footer-logo {
+  display: block;
+  width: 95%;
+}
+
+.social-logo {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.copyright-fake {
+  width: 30rem;
+}
+
+.social-logo > img {
+  display: block;
+  width: 11%;
+}
+
+.grid-box {
+  display: grid;
+  gap: 1rem;
+}
+
+.company-info {
+  justify-self: start;
+}
+
+/* Copyright */
+.copyright {
+  padding-top: 3rem;
+  font-size: 1.2rem;
+  height: 4rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.github-logo {
+  width: 1.5%;
+}
+
+.copyright > a {
+  text-decoration: none;
+  color: inherit;
+}
