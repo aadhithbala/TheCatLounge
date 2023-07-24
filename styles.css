@@ -340,3 +340,19 @@ h2 {
 .cta-heading {
   margin-bottom: 1.5rem;
 }
+
+.cta-description {
+  margin-bottom: 3rem;
+}
+
+/* Form */
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.cta-form > * {
+  display: block;
+}
