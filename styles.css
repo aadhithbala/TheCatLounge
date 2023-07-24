@@ -328,7 +328,7 @@ h2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   background: lightpink;
-  background-image: linear-gradient(to right bottom, #75b687, #669f76);
+  background-image: linear-gradient(to right bottom, #86c083, #79b975);
   border-radius: 25px;
   overflow: hidden;
   /* temp */
@@ -373,7 +373,7 @@ h2 {
   border: none;
   font-size: inherit;
   color: inherit;
-  background: #d7f8e5;
+  background: #bcdcba;
 }
 
 .submit-btn {
@@ -387,3 +387,5 @@ h2 {
   color: #faf9f6;
   cursor: pointer;
 }
+
+/* Section Footer */
