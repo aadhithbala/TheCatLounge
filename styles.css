@@ -317,3 +317,26 @@ h2 {
 .gallery-img-container > img:hover {
   transform: scale(1.1);
 }
+
+/* CTA */
+.section-cta {
+  padding: 15rem;
+}
+.cta {
+  background: lightblue;
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+}
+.cta-image {
+  width: 90%;
+  background-size: cover;
+  justify-self: end;
+}
+
+.cta-box {
+  padding: 3rem;
+}
+
+.cta-heading {
+  margin-bottom: 1.5rem;
+}
