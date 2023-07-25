@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -7,13 +7,13 @@
 }
 
 html {
-  font-size: 80%;
+  font-size: 75%;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   color: #2e2836;
   line-height: 1.75;
 }
@@ -320,40 +320,56 @@ h2 {
 
 /* CTA */
 .section-cta {
-  padding: 10rem;
   background-color: #bdf3d3;
+  padding: 10rem 15rem;
 }
 
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background: lightpink;
-  background-image: linear-gradient(to right bottom, #86c083, #79b975);
+  height: 40rem;
+
   border-radius: 25px;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(134, 192, 131),
+    rgba(97, 148, 94)
+  );
   overflow: hidden;
-  /* temp */
-  height: 35rem;
 }
 
 .cta-box {
-  padding: 3rem;
+  padding: 5rem;
 }
 
 .cta-heading {
-  margin-bottom: 2rem;
+  font-size: 3rem;
+  color: #182517;
+}
+
+.cta-description {
+  margin-top: 2rem;
 }
 
 .cta-image {
   background-image: linear-gradient(
       to right bottom,
-      rgba(118, 183, 136, 0.35),
-      rgba(101, 159, 118, 0.35)
+      rgba(134, 192, 131, 0.35),
+      rgba(97, 148, 94, 0.35)
     ),
-    url(./images/CTA\ Image.png);
+    url(./images/cta-image.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 /* FORMS */
+
+.cta-form {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
 
 .input-field,
 .survey-dropdown {
