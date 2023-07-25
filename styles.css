@@ -433,7 +433,8 @@ h4 {
   justify-self: start;
 }
 
-.contact-details p a {
+.contact-details p a,
+.grid-box p a {
   text-decoration: none;
   color: inherit;
   font-size: inherit;
