@@ -419,10 +419,6 @@ h4 {
   margin-top: 1rem;
 }
 
-.copyright-fake {
-  width: 30rem;
-}
-
 .social-logo > img {
   display: block;
   width: 11%;
@@ -430,11 +426,17 @@ h4 {
 
 .grid-box {
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .company-info {
   justify-self: start;
+}
+
+.contact-details p a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
 }
 
 /* MadeBy */
@@ -443,4 +445,8 @@ h4 {
   width: 6%;
   display: block;
   margin-top: 3px;
+}
+
+.madeby {
+  margin-top: 1rem;
 }
