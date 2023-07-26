@@ -1,5 +1,6 @@
 :root {
   --shadow-color: 145deg 33% 52%;
+  --shadow-color-accent: 117deg 28% 36%;
   --shadow-elevation-low: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
     0.4px 0.8px 1px -1.2px hsl(var(--shadow-color) / 0.35),
     1px 2px 2.5px -2.4px hsl(var(--shadow-color) / 0.35);
@@ -15,6 +16,24 @@
     11.4px 22.8px 28.9px -1.8px hsl(var(--shadow-color) / 0.34),
     17.3px 34.7px 43.9px -2.1px hsl(var(--shadow-color) / 0.35),
     25.5px 51px 64.6px -2.4px hsl(var(--shadow-color) / 0.35);
+  --shadow-accent-elevation-low: 0.4px 0.3px 0.6px
+      hsl(var(--shadow-color-accent) / 0.34),
+    0.6px 0.5px 0.9px -1.2px hsl(var(--shadow-color-accent) / 0.34),
+    1.5px 1.2px 2.2px -2.5px hsl(var(--shadow-color-accent) / 0.34);
+  --shadow-accent-elevation-medium: 0.4px 0.3px 0.6px
+      hsl(var(--shadow-color-accent) / 0.36),
+    1.2px 1px 1.8px -0.8px hsl(var(--shadow-color-accent) / 0.36),
+    3.1px 2.4px 4.4px -1.7px hsl(var(--shadow-color-accent) / 0.36),
+    7.6px 5.8px 10.8px -2.5px hsl(var(--shadow-color-accent) / 0.36);
+  --shadow-accent-elevation-high: 0.4px 0.3px 0.6px
+      hsl(var(--shadow-color-accent) / 0.34),
+    2.2px 1.7px 3.1px -0.4px hsl(var(--shadow-color-accent) / 0.34),
+    4.1px 3.2px 5.9px -0.7px hsl(var(--shadow-color-accent) / 0.34),
+    6.8px 5.2px 9.6px -1.1px hsl(var(--shadow-color-accent) / 0.34),
+    10.8px 8.3px 15.3px -1.4px hsl(var(--shadow-color-accent) / 0.34),
+    16.9px 12.9px 23.9px -1.8px hsl(var(--shadow-color-accent) / 0.34),
+    25.7px 19.7px 36.4px -2.1px hsl(var(--shadow-color-accent) / 0.34),
+    37.9px 29px 53.7px -2.5px hsl(var(--shadow-color-accent) / 0.34);
 }
 
 .card-box {
@@ -23,4 +42,10 @@
 
 .cta {
   box-shadow: var(--shadow-elevation-medium);
+}
+
+.input-field,
+.survey-dropdown,
+.submit-btn {
+  box-shadow: var(--shadow-accent-elevation-low);
 }
