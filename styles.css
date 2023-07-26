@@ -68,15 +68,9 @@ h2 {
   padding: 10px 0;
   display: inline-block;
   position: relative;
-  opacity: 0.8;
 }
 
 /* Animation Hover */
-
-.navlink:hover {
-  opacity: 1;
-}
-
 .navlink::before {
   transition: 300ms;
   height: 2px;
@@ -97,7 +91,6 @@ h2 {
 .donate-btn {
   cursor: pointer;
   text-transform: none !important;
-  opacity: 1 !important;
   padding: 0.5rem !important;
   width: 7.5rem;
   text-align: center;
@@ -168,6 +161,7 @@ h2 {
 .learn-btn,
 .donate-btn {
   transition: all 0.2s;
+  font-weight: 600;
 }
 
 .learn-btn:hover,
