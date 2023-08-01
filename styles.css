@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.35rem;
   color: #2e2836;
@@ -74,7 +74,7 @@ h2 {
 .navlink::before {
   transition: 300ms;
   height: 2px;
-  content: '';
+  content: "";
   position: absolute;
   background-color: #304a2f;
 }
@@ -268,14 +268,17 @@ h2 {
 
 .cards-container {
   display: flex;
-  column-gap: 2rem;
+  gap: 5rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card-box {
+  flex: 1;
+  min-width: 20rem;
+  max-width: 25rem;
   align-items: center;
   text-align: center;
-  width: 30rem;
   background-color: #d7f8e5;
   border-radius: 25px;
   padding: 3rem;
