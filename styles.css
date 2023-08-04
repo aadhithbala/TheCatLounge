@@ -399,28 +399,20 @@ h2 {
 /* FORMS  */
 
 .cta-form {
-}
-
-.cta-form {
+  outline: solid 2px red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 .input-field,
 .survey-dropdown {
-  padding: 1rem;
-  border-radius: 10px;
-  border: none;
-  font-size: inherit;
-  color: inherit;
+  display: block;
   background: #bcdcba;
 }
 
 .submit-btn {
-  width: 60%;
-  border: none;
-  padding: none;
-  margin: none;
-  font-size: inherit;
-  border-radius: 10px;
+  display: block;
   background-color: #304a2f;
   color: #faf9f6;
   cursor: pointer;
