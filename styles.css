@@ -383,21 +383,19 @@ h2 {
   width: 70%;
 
   margin: 0 auto;
-
   max-width: 100rem;
 }
 
 .cta-box {
   display: grid;
-  margin: 0 auto;
+  padding: 2rem;
   gap: 1rem;
 
-  max-width: 75rem;
-}
-.cta-heading {
+  max-width: 80rem;
 }
 
 .cta-description {
+  margin-bottom: 2rem;
 }
 
 /* FORMS  */
