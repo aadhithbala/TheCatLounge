@@ -383,12 +383,16 @@ h2 {
   width: 70%;
 
   margin: 0 auto;
+
+  max-width: 100rem;
 }
 
 .cta-box {
   display: grid;
   margin: 0 auto;
   gap: 1rem;
+
+  max-width: 75rem;
 }
 .cta-heading {
 }
@@ -399,7 +403,6 @@ h2 {
 /* FORMS  */
 
 .cta-form {
-  outline: solid 2px red;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
@@ -409,14 +412,24 @@ h2 {
 .survey-dropdown {
   display: block;
   background: #bcdcba;
+
+  padding: 1rem;
+  border: none;
+
+  border-radius: 10px;
+
+  min-width: 10rem;
 }
 
 .submit-btn {
   display: block;
+  border: none;
+  width: 50%;
   background-color: #304a2f;
   color: #faf9f6;
   cursor: pointer;
   transition: all 0.2s;
+  border-radius: 10px;
 }
 
 .submit-btn:hover,
