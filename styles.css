@@ -374,7 +374,12 @@ h2 {
 
 .cta {
   padding: 3rem;
-  background-image: url('./images/sun-tornado.svg');
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(146, 227, 169, 0.4),
+      rgb(88, 136, 101, 0.4)
+    ),
+    url('./images/sun-tornado.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
