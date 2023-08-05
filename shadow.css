@@ -36,7 +36,8 @@
     37.9px 29px 53.7px -2.5px hsl(var(--shadow-color-accent) / 0.34);
 }
 
-.card-box {
+.card-box,
+.review-box {
   box-shadow: var(--shadow-elevation-medium);
 }
 

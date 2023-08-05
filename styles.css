@@ -318,12 +318,14 @@ h2 {
 }
 
 .review-box {
-  background-color: #bdf3d3;
+  background-color: #92e3a9;
   border-radius: 25px;
   padding: 2rem;
   display: grid;
   align-content: start;
   gap: 3rem;
+
+  min-width: 28.5rem;
 }
 
 .review-box > img {
